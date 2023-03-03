@@ -1,12 +1,14 @@
-Directory specifying a list of datasets used in the experiment. The data sets are divided into image types and video types, each of which is from ImageNet, VIRAT. The capacity of the dataset was large, so I specified it in the form of a list of the names of the files.
+Information about datasets used in the experiment. 
+The datasets are divided into image and video types, each of which is from ImageNet and VIRAT, respectively. 
+As the volume of the entire datasets itself is too large, we provide a list of the filenames used in the two mother datasets.
 
-- image 
+- Image datasets
     - IMG-A.txt
     - IMG-B.txt
     - IMG-C.txt
     - IMG-D.txt  
     
-- video  
+- Video datasets  
     - VD-A.txt
     - VD-B.txt
     - VD-C.txt
